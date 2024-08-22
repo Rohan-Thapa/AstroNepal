@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="AstroPhotography, Planetary, Stargazing, Galaxies, Universe" />
+    <meta name="description" content="AstroNepal, Astronomy Group of Nepal" />
+    <meta name="author" content="Rohan Thapa" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AstroNepal | An Overall Astronomy Organization of Nepal</title>
+    <link rel="icon" type="image/png" href="./assets/images/logo.png" />
+    <!-- Main Style Sheet -->
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href="#">AstroNepal</a></div>
+            <input type="radio" name="slider" id="menu-btn" />
+            <input type="radio" name="slider" id="close-btn" />
+            <ul class="nav-links">
+                <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li>
+                    <a href="#" class="desktop-item">Provinces</a>
+                    <input type="checkbox" id="showDrop" />
+                    <label for="showDrop" class="mobile-item">Provinces</label>
+                    <ul class="drop-menu">
+                        <li><a href="#">Koshi</a></li>
+                        <li><a href="#">Madesh</a></li>
+                        <li><a href="#">Bagmati</a></li>
+                        <li><a href="#">Gandaki</a></li>
+                        <li><a href="#">Lumbini</a></li>
+                        <li><a href="#">Karnali</a></li>
+                        <li><a href="#">Sudurpaschim</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="desktop-item">Programs</a>
+                    <input type="checkbox" id="showMega" />
+                    <label for="showMega" class="mobile-item">Programs</label>
+                    <div class="mega-box">
+                        <div class="content">
+                            <div class="row">
+                                <img src="./assets/images/Orion_Belt.jpg" alt="Orion Belt" />
+                            </div>
+                            <div class="row">
+                                <header>Sky Hunt</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">Comets</a></li>
+                                    <li><a href="#">Near-Earth Objects</a></li>
+                                    <li><a href="#">Moons</a></li>
+                                    <li><a href="#">Planetary Features</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header>Learning</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">Telescope Making</a></li>
+                                    <li><a href="#">Gases Analysis</a></li>
+                                    <li><a href="#">Distance Finding</a></li>
+                                    <li><a href="#">Simulations</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header>Our Collection</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">Gallery</a></li>
+                                    <li><a href="#">Research</a></li>
+                                    <li><a href="#">Technologies</a></li>
+                                    <li><a href="#">Teams</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">Feedback</a></li>
+            </ul>
+            <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+        </div>
+    </nav>
+    <div class="slider">
+        <div class="slide">
+            <div class="item active" style="background-image: url(./assets/images/img1.jpg);">
+                <div class="contents">
+                    <div class="name">Switzerland</div>
+                    <div class="des">The Background Image is shot at the above named country.</div>
+                    <button>See More</button>
+                </div>
+            </div>
+            <!-- Here in this slider, the image 2 is shown first as the previous is the overlaying image initially -->
+            <div class="item" style="background-image: url(./assets/images/img2.jpg);">
+                <div class="contents">
+                    <div class="name">Finland</div>
+                    <div class="des">The Background Image is shot at the above named country.</div>
+                    <button>See More</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(./assets/images/img3.jpg);">
+                <div class="contents">
+                    <div class="name">Iceland</div>
+                    <div class="des">The Background Image is shot at the above named country.</div>
+                    <button>See More</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(./assets/images/img4.jpg);">
+                <div class="contents">
+                    <div class="name">Ireland</div>
+                    <div class="des">The Background Image is shot at the above named country.</div>
+                    <button>See More</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(./assets/images/img5.jpg);">
+                <div class="contents">
+                    <div class="name">New Zealand</div>
+                    <div class="des">The Background Image is shot at the above named country.</div>
+                    <button>See More</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(./assets/images/img6.jpg);">
+                <div class="contents">
+                    <div class="name">Austraila</div>
+                    <div class="des">The Background Image is shot at the above named country.</div>
+                    <button>See More</button>
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="prev"><i class="fas fa-arrow-left"></i></button>
+            <button class="next"><i class="fas fa-arrow-right"></i></button>
+        </div>
+    </div>
+
+    <div class="footer">Copyright &copy; 2024 | All Rights Reserverd - Ineffable Inc. (Digital)</div>
+
+    <script src="./assets/script.js"></script>
+</body>
+</html>
